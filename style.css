@@ -94,6 +94,10 @@ a{
 	text-align: center;
 	margin-bottom: 30px;
 }
+.h4-heading{
+	font-size: 20px;
+	font-weight: 500;
+}
 .text{
 	font-size: 16px;
 	color: rgb(112, 109, 131);
@@ -121,10 +125,13 @@ a{
 
 /* header */
 .header{
-	padding: 16px 0;
-	background-color:#090957;
+	
 	color: white;
 	font-size: 18px;
+}
+.header-section-1{
+	background-color:#090957;
+	padding: 16px 0;
 }
 .header span{
 	margin-right: 5px;
@@ -138,6 +145,7 @@ a{
 /* main header */
 .main-header{
 	padding: 32px 0;
+	background-color: white;
 }
 .main-header li{
 	margin-left: 10px;
@@ -235,6 +243,7 @@ a{
 /* services section */
 .service{
 	text-align: center;
+	padding: 120px 0 80px 0;
 }
 .service .col{
 	flex: 0 1 20%;
@@ -307,13 +316,11 @@ a{
 	color: red;
 	margin-bottom: 10px;
 }
+.news h4{
+	margin-left: 20px;
+}
 .news h1{
 	margin-bottom: 44px;
-}
-.news h4{
-	font-size: 20px;
-	margin-left: 20px;
-	font-weight: 500;
 }
 .news .date{
 	margin-left: 20px;
@@ -373,7 +380,7 @@ a{
 .footer .nav .flex{
 	justify-content: flex-start;
 }
-.nav {
+.footer .nav {
 	margin-top: 20px;
 }
 .nav li{
@@ -386,6 +393,9 @@ a{
 .footer-col-right{
 	flex: 0 1 60%;
 }
+.footer .lists{
+	flex: 0 1 19%;
+}
 .footer-col-right li{
 	margin-bottom: 10px;
 	text-transform: capitalize;
@@ -393,4 +403,330 @@ a{
 .footer-col-right .heading-list{
 	color: #090957;
 	font-weight: 500;
+}
+/* footer section */
+.footer-sec{
+	text-align: center;
+	margin-bottom: 80px;
+}
+hr{
+	border:1px solid  #c0c4c9;
+}
+.footer-sec small{
+	display: inline-block;
+	margin-top: 30px;
+	color: #c0c4c9;
+}
+/* about file */
+.hero-about{
+	background: url('./coding-challange/buson/assets/hero/about_hero.jpg') 50% 50% no-repeat;
+	background-size: cover;
+}
+.hero-content-about {
+	text-align: center;
+	color: white;
+}
+/* cases page */
+/* hero section */
+.hero-cases{
+	background: url('./coding-challange/buson/assets/hero/cases_hero.jpg') 50% 50% no-repeat;
+	background-size: cover;
+
+}
+.hero-content-cases {
+	text-align: center;
+	color: white;
+}
+/* planning section*/
+.cases-strategy{
+	background-color: #e7eaee;
+	padding: 180px 0;
+}
+.cases-strategy .secondary-heading{
+	margin: 10px 0 0 0;
+
+}
+.cases-strategy .flex{
+	flex-wrap: wrap;
+}
+.cases-strategy .col{
+	flex: 0 1 31%;
+}
+.cases-strategy .cases-planning{
+	position: relative;
+	font-size: 0;
+	margin-bottom: 30px;
+}
+.cases-strategy .cases-plan-content{
+	position: absolute;
+	bottom: 0;
+	right:  60px;
+	background: white;
+	padding: 10px;
+}
+/* service page */
+.hero-services{
+	background: url('./coding-challange/buson/assets/hero/services_hero.jpg') 50% 50% no-repeat;
+	background-size: cover;
+}
+.hero-content-services {
+	text-align: center;
+	color: white;
+}
+/* contact file */
+.hero-contact{
+	background: url('./coding-challange/buson/assets/hero/contact_hero.jpg') 50% 50% no-repeat;
+	background-size: cover;
+}
+.hero-content-contact {
+	text-align: center;
+	color: white;
+}
+/* contact file */
+.contact .flex{
+	align-items: flex-start;
+}
+.form-details {
+	margin-top: 80px;
+}
+.contact-form {
+	flex: 0 1 65%;
+}
+.address-contact{
+	flex: 0 1 30%;
+	padding-left: 50px;
+}
+.contact .contact-form  .contact-text-area{
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid lightgray;
+	color: lightgray;
+	outline: none;
+	border-radius: 4px;
+}
+.contact-form input{
+	width: 100%;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border: 1px solid lightgray;
+	color: lightgray;
+	border-radius: 4px;
+}
+.input-contact input{
+	width: 49%;
+	padding: 15px 20px;
+	border: 1px solid lightgray;
+	color: lightgray;
+	border-radius: 4px;
+}
+.contact-form .btn {
+	background: none;
+	border: 1px solid #e75967;
+	color: #e75967;
+	display: inline-block;
+	padding:15px 40px;
+}
+
+.address-contact i{
+	color:rgb(94, 89, 89);
+	margin-right: 20px;
+    vertical-align: middle;
+	font-size: 30px;
+}
+.address-contact li{
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+.address-contact li a{
+	color: black;
+	font-weight: 500;
+}
+.address-contact span{
+	display: inline-block;
+	margin-left: 54px;
+	color: #6d6d6d;
+}
+/* blog file */
+/* blog hero */
+.hero-blog{
+	background: url('./coding-challange/buson/assets/hero/blog_hero.jpg') 50% 50% no-repeat;
+	background-size: cover;
+}
+.hero-content-blog{
+	text-align: center;
+	color: white;
+}
+/* blog body section */
+.blog-section .blog-left-col{
+	flex: 0 1 60%;
+}
+.blog-section .start-flex{
+	align-items: flex-start;
+}
+.blog-section .blog-col{
+	margin-bottom: 50px;
+	box-shadow: 0 5px 16px gray;
+}
+.blog-section .blog-col .blog-img{
+	position: relative;
+	font-size: 0;
+}
+.blog-section .blog-col .blog-date{
+	padding: 25px;
+	position: absolute;
+	bottom:-30px;
+	left: 50px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	flex:0 1 20%;
+	font-weight: 500;
+	border-radius: 6px;
+	background-color: #e75967;
+}
+.blog-col h2{
+	margin: 50px 0 20px 0;
+}
+.blog-col .media-blog{
+	justify-content: flex-start;
+	margin-top: 15px;
+}
+.blog-col .media-blog .user{
+	border-right: 2px solid #a09999;
+	margin-right: 10px;
+	padding-right: 20px;
+	color: #a5a3a3;
+}
+.blog-col .media-blog .message{
+	padding-left: 5px;
+	color: #a5a3a3;
+}
+.blog-col .blog-col-content{
+	padding: 30px;
+}
+.blog-left-col .no-pages {
+	text-align: center;
+	margin: 80px 0;
+}
+.blog-left-col .no-pages span{
+	padding: 10px 18px;
+	border: 1px solid lightgray;
+	color: lightgray;
+	margin-right: 10px;
+}
+.blog-left-col .page-2{
+	background-color: rgb(248, 241, 241);
+}
+/* aside */
+.blog-right-col{
+	flex: 0 1 35%;
+	
+}
+.bg-color-blog{
+	background-color: #fbf9ff;
+}
+.padding-aside-blog{
+	padding: 20px;
+}
+/* serch in aside*/
+.search{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.blog-right-col .search-input{
+	width: 85%;
+	padding: 10px 20px;
+	border: 1px solid lightgray;
+	border-right: none;
+	margin-right: 0;
+}
+.blog-right-col .search-icon{
+	width: 20%;
+	padding:9px 0;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	background-color: #e75967;
+}
+.blog-right-col .blog-btn{
+	width: 100%;
+	padding: 15px 0;
+	background: none;
+	margin-top: 20px;
+	border: 1px solid #e75967;
+	color:#e35867;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+.blog-right-col .category {
+	margin: 20px 0;
+}
+.blog-right-col .category li{
+	margin-bottom: 15px;
+	border-bottom: 1px solid lightgray;
+}
+.blog-right-col .category li p{
+	margin: 10px 0;
+}
+.blog-right-col .category .main-list-head{
+	margin-bottom: 44px;
+}
+
+/* recend post */
+.recent-post{
+	margin: 20px 0;
+	width: 100%;
+}
+.recent-post .flex{
+	justify-content: flex-start;
+	margin-bottom: 20px;
+}
+.recent-post p span{
+	color: black;
+}
+.recent-post p{
+	margin-left: 10px;
+}
+/* tag clouds */
+.tag-clouds{
+	margin: 20px 0;
+	width: 100%;
+}
+.h4-aside{
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 20px;
+	padding-bottom: 10px ;
+}
+.tag-clouds .no-button{
+	margin: 30px 0;
+}
+.tag-clouds .no-btn{
+	border: 1px solid rgb(209, 205, 205);
+	background-color: white;
+	text-align: center;
+	color: gray;
+	margin: 5px;
+	font-size: 12px;
+	padding: 5px 10px;
+	border-radius: 4px;
+	display: inline-block;
+}
+/* instagram feeds */
+.instagram-feeds{
+	margin: 20px 0;
+	width: 100%;
+}
+.instagram-feeds img{
+	margin: 6px;
+}
+/* news latter */
+.news-letter{
+	width: 100%;
+	margin: 20px 0;
+}
+.news-letter input{
+	width: 100%;
+	border: 1px solid lightgray;
+	padding: 15px 20px ;
 }
