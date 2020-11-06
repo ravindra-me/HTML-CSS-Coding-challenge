@@ -417,9 +417,10 @@ hr{
 	margin-top: 30px;
 	color: #c0c4c9;
 }
-.footer-sec small i , span{
+.footer-sec  .fa-heart {
 	color:#e75967;
 }
+
 /* about file */
 .hero-about{
 	background: url('./coding-challange/buson/assets/hero/about_hero.jpg') 50% 50% no-repeat;
