@@ -49,9 +49,7 @@ table {
 	box-sizing: border-box;
 }
 body{
-	font-size: 16px;
-	line-height: 1.5;
-	font-family:  'Poppins', sans-serif;
+	font:  16px/1.5 'Poppins', sans-serif;
 }
 .container{
 	max-width:1350px;
@@ -71,6 +69,12 @@ body{
 	color: white;
 	text-transform: uppercase;
 	display: inline-block;
+}
+.btn-without-bg{
+	background: none;
+	color: #e75967;
+	text-transform: capitalize;
+	border: 1px solid #e75967;
 }
 a{
 	text-decoration: none;
@@ -121,13 +125,16 @@ a{
 	object-fit: cover;
 	-o-object-fit: cover;
 }
+input::placeholder{
+	font-size: 16px;
+	color: white;
+}
 /* costum style */
 
 /* header */
 .header{
-	
 	color: white;
-	font-size: 16px;
+	font-size: 14px;
 }
 .header-section-1{
 	background-color:#090957;
@@ -137,14 +144,14 @@ a{
 	margin-right: 5px;
 }
 .location-logo{
-	margin-right: 20px;
+	margin-right: 50px;
 }
 .header nav li{
       margin-left: 20px;
 }
 /* main header */
 .main-header{
-	padding: 24px 0;
+	padding: 20px 0;
 	background-color: white;
 }
 .main-header li{
@@ -255,10 +262,11 @@ a{
 .service .fas{
 	font-size: 50px;
 }
-.service .btn-service{
+.service .btn-without-bg{
 	margin: 120px 0;
 	background: none;
 	color: #e75967;
+	text-transform: capitalize;
 	border: 1px solid #e75967;
 }
 /* completed section */
@@ -350,7 +358,7 @@ a{
 	flex: 0 1 60%;
 }
 .form input{
-	padding: 10px;
+	padding: 15px 23px;
 	background: none;
 	border: 1px solid #6d6d6d;
 	color: white;
@@ -358,14 +366,23 @@ a{
 .input-col input{
 	width: 45%;
 	margin-right: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
-.input-col-2 input{
-  width: 75%;
-  margin-right: 15px;
+.input-col-2 select{
+  width: 70%;
+  padding: 15px 23px;
+  display: inline-block;
+  background: none;
+  font-size: 16px;
+  color: white;
+  margin-right: 20px;
 }
 .input-col-2 button{
-	padding: 10px 30px;
+	width: 20%;
+	font-size: 16px;
+	padding: 15px 20px;
+	border: none;
+	text-transform: capitalize;
 }
 /* footer */
 .footer .flex{
@@ -399,10 +416,13 @@ a{
 .footer-col-right li{
 	margin-bottom: 10px;
 	text-transform: capitalize;
+	color: #c0c4c9;
+	font-size: 14px;
 }
 .footer-col-right .heading-list{
 	color: #090957;
-	font-weight: 500;
+	margin-bottom: 30px;
+	font-weight: 600;
 }
 /* footer section */
 .footer-sec{
