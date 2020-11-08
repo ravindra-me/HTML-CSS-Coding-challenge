@@ -184,7 +184,7 @@ input{
 /* hero section */
 .hero{
 	padding:200px  0 200px 0;
-	background: url('./coding-challange/buson/assets/hero/h1_hero.jpg') 50% 50%  no-repeat ;
+	background: url('./hero/h1_hero.jpg') 50% 50%  no-repeat ;
 	background-size: cover;
 }
 .hero .heading{
@@ -469,7 +469,7 @@ hr{
 
 /* about file */
 .hero-about{
-	background: url('./coding-challange/buson/assets/hero/about_hero.jpg') 50% 50% no-repeat;
+	background: url('./hero/about_hero.jpg') 50% 50% no-repeat;
 	background-size: cover;
 }
 .hero-content-about {
@@ -479,7 +479,7 @@ hr{
 /* cases page */
 /* hero section */
 .hero-cases{
-	background: url('./coding-challange/buson/assets/hero/cases_hero.jpg') 50% 50% no-repeat;
+	background: url('./hero/cases_hero.jpg') 50% 50% no-repeat;
 	background-size: cover;
 
 }
@@ -516,7 +516,7 @@ hr{
 }
 /* service page */
 .hero-services{
-	background: url('./coding-challange/buson/assets/hero/services_hero.jpg') 50% 50% no-repeat;
+	background: url('./hero/services_hero.jpg') 50% 50% no-repeat;
 	background-size: cover;
 }
 .hero-content-services {
@@ -525,7 +525,7 @@ hr{
 }
 /* contact file */
 .hero-contact{
-	background: url('./coding-challange/buson/assets/hero/contact_hero.jpg') 50% 50% no-repeat;
+	background: url('./hero/contact_hero.jpg') 50% 50% no-repeat;
 	background-size: cover;
 }
 .hero-content-contact {
@@ -604,7 +604,7 @@ hr{
 /* blog file */
 /* blog hero */
 .hero-blog{
-	background: url('./coding-challange/buson/assets/hero/blog_hero.jpg') 50% 50% no-repeat;
+	background: url('./hero/blog_hero.jpg') 50% 50% no-repeat;
 	background-size: cover;
 }
 .hero-content-blog{
